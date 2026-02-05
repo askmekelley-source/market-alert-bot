@@ -20,7 +20,7 @@ def test_alert():
         }
     )
 
-test_alert()
+test_alert(yolo bolo)
 
     DISCORD_WEBHOOK,
     STOCKS,
