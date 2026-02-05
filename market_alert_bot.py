@@ -6,21 +6,7 @@ from datetime import datetime
 import ta
 import threading
 import time
-from config import (
-from config import DISCORD_WEBHOOK
-import requests
-from datetime import datetime
 
-def test_alert():
-    requests.post(
-        DISCORD_WEBHOOK,
-        json={
-            "username": "Market Alerts Bot",
-            "content": f"✅ Bot is online and sending messages! {datetime.utcnow().strftime('%H:%M:%S UTC')}"
-        }
-    )
-
-test_alert(yolo bolo)
 
     DISCORD_WEBHOOK,
     STOCKS,
